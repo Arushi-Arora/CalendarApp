@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall2">
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="120dp"
+        android:text="Todos"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="36dp"
+        android:text="Calender"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="140dp"
+        android:layout_marginTop="200dp"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="58sp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/simple_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FUNCTIONALITY"
+        android:layout_marginTop="86dp"
+        android:layout_below="@+id/three"
+        android:layout_toLeftOf="@+id/three"
+        android:layout_toStartOf="@+id/three" />
+
+
+</RelativeLayout>
